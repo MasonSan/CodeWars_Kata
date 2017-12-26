@@ -21,6 +21,12 @@ namespace Remove_the_minimum
         public static List<int> RemoveSmallest(List<int> numbers)
         {
             // Good Luck!
+            if (numbers.Count == 0)
+                return new List<int>();
+
+            var min = numbers.OrderBy(num => num).Take(1).First();
+            numbers.Remove(numbers.First(o => o == min));
+            return numbers;
         }
     }
 }
