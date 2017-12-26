@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove the minimum", "Remov
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove the minimum Test", "Remove the minimum Test\Remove the minimum Test.csproj", "{78B981B2-FBB4-457E-BAF1-CE06778A2354}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get the Middle Character", "Get the Middle Character\Get the Middle Character.csproj", "{C5869CBD-B807-4007-84DA-9FCBECFAF013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get the Middle Character Test", "Get the Middle Character Test\Get the Middle Character Test.csproj", "{038BFDB1-6F16-4B0B-A33A-08ADB2EB9C13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{78B981B2-FBB4-457E-BAF1-CE06778A2354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78B981B2-FBB4-457E-BAF1-CE06778A2354}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78B981B2-FBB4-457E-BAF1-CE06778A2354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5869CBD-B807-4007-84DA-9FCBECFAF013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5869CBD-B807-4007-84DA-9FCBECFAF013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5869CBD-B807-4007-84DA-9FCBECFAF013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5869CBD-B807-4007-84DA-9FCBECFAF013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038BFDB1-6F16-4B0B-A33A-08ADB2EB9C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038BFDB1-6F16-4B0B-A33A-08ADB2EB9C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038BFDB1-6F16-4B0B-A33A-08ADB2EB9C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038BFDB1-6F16-4B0B-A33A-08ADB2EB9C13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
