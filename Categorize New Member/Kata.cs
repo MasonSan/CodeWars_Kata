@@ -7,8 +7,10 @@
 //Input will consist of a list of lists containing two items each. Each list contains information for a single potential member. Information consists of an integer for the person's age and an integer for the person's handicap.
 
 //Note for F#: The input will be of (int list list) which is a List>
-
+using System;
 using System.Collections.Generic;
+using System.Linq;
+
 
 namespace Categorize_New_Member
 {
@@ -17,17 +19,7 @@ namespace Categorize_New_Member
         public static IEnumerable<string> OpenOrSenior(int[][] data)
         {
             //your code here
-            List<string> result = new List<string>();
-
-            foreach (int[] m in data)
-            {
-                if (m[0] >= 55 && m[1] > 7)
-                    result.Add("Senior");
-                else
-                    result.Add("Open");
-            }
-
-            return result;
+            return data.Select(member => member[0] >= 55 && member[1] > 7 ? "Senior" : "Open").ToList();
         }
     }
 }
