@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get the Middle Character", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get the Middle Character Test", "Get the Middle Character Test\Get the Middle Character Test.csproj", "{038BFDB1-6F16-4B0B-A33A-08ADB2EB9C13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Take a Ten Minute Walk Test", "Take a Ten Minute Walk Test\Take a Ten Minute Walk Test.csproj", "{C937A31F-3346-428A-9912-9845B1EDCA75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Take a Ten Minute Walk", "Take a Ten Minute Walk\Take a Ten Minute Walk.csproj", "{AB1070B8-D99D-4F20-8001-EF9135761203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{038BFDB1-6F16-4B0B-A33A-08ADB2EB9C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{038BFDB1-6F16-4B0B-A33A-08ADB2EB9C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{038BFDB1-6F16-4B0B-A33A-08ADB2EB9C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C937A31F-3346-428A-9912-9845B1EDCA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C937A31F-3346-428A-9912-9845B1EDCA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C937A31F-3346-428A-9912-9845B1EDCA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C937A31F-3346-428A-9912-9845B1EDCA75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1070B8-D99D-4F20-8001-EF9135761203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1070B8-D99D-4F20-8001-EF9135761203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1070B8-D99D-4F20-8001-EF9135761203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1070B8-D99D-4F20-8001-EF9135761203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
