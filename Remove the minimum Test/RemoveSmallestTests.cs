@@ -5,7 +5,7 @@ using NUnit.Framework;
 
 namespace Remove_the_minimum_Test
 {
-    [TestClass]
+    [TestFixture]
     public class RemoveSmallestTests
     {
         private static void Tester(List<int> argument, List<int> expectedResult)
