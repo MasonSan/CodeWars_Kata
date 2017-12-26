@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Categorize New Member", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Categorize New Member Test", "Categorize New Member Test\Categorize New Member Test.csproj", "{A27585C9-8A73-49EB-B5F2-F63EF2A63E6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove the minimum", "Remove the minimum\Remove the minimum.csproj", "{7974C83B-9CF5-4DE7-A301-3A5D800F6DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove the minimum Test", "Remove the minimum Test\Remove the minimum Test.csproj", "{78B981B2-FBB4-457E-BAF1-CE06778A2354}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{A27585C9-8A73-49EB-B5F2-F63EF2A63E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A27585C9-8A73-49EB-B5F2-F63EF2A63E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A27585C9-8A73-49EB-B5F2-F63EF2A63E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7974C83B-9CF5-4DE7-A301-3A5D800F6DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7974C83B-9CF5-4DE7-A301-3A5D800F6DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7974C83B-9CF5-4DE7-A301-3A5D800F6DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7974C83B-9CF5-4DE7-A301-3A5D800F6DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B981B2-FBB4-457E-BAF1-CE06778A2354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B981B2-FBB4-457E-BAF1-CE06778A2354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B981B2-FBB4-457E-BAF1-CE06778A2354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B981B2-FBB4-457E-BAF1-CE06778A2354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
