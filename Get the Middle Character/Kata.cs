@@ -6,11 +6,7 @@
 //runBF("middle") should return "dd"
 //runBF("A") should return "A"
 
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Get_the_Middle_Character
 {
@@ -19,7 +15,19 @@ namespace Get_the_Middle_Character
         public static string GetMiddle(string s)
         {
             //Code goes here!
-            throw new NotImplementedException();
+            var skipCount = 0;
+            if (s.Length % 2 == 0)
+            {
+                //odd
+                skipCount = s.Length / 2 - 1;
+                return string.Join(string.Empty, s.Skip(skipCount).Take(2));
+            }
+            else
+            {
+                //even
+                skipCount = (s.Length - 1) / 2;
+                return string.Join(string.Empty, s.Skip(skipCount).Take(1));
+            }
         }
     }
 }
