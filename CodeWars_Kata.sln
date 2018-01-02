@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Take a Ten Minute Walk", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQ Test", "IQ Test\IQ Test.csproj", "{EF3031A9-FDFF-47BE-A6E2-477A3BB25197}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Supermarket Queue", "The Supermarket Queue\The Supermarket Queue.csproj", "{663FF3BF-D48A-45E2-9253-B401D29EA716}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{EF3031A9-FDFF-47BE-A6E2-477A3BB25197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF3031A9-FDFF-47BE-A6E2-477A3BB25197}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF3031A9-FDFF-47BE-A6E2-477A3BB25197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663FF3BF-D48A-45E2-9253-B401D29EA716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663FF3BF-D48A-45E2-9253-B401D29EA716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663FF3BF-D48A-45E2-9253-B401D29EA716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663FF3BF-D48A-45E2-9253-B401D29EA716}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
