@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Take a Ten Minute Walk Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Take a Ten Minute Walk", "Take a Ten Minute Walk\Take a Ten Minute Walk.csproj", "{AB1070B8-D99D-4F20-8001-EF9135761203}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQ Test", "IQ Test\IQ Test.csproj", "{EF3031A9-FDFF-47BE-A6E2-477A3BB25197}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{AB1070B8-D99D-4F20-8001-EF9135761203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB1070B8-D99D-4F20-8001-EF9135761203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB1070B8-D99D-4F20-8001-EF9135761203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3031A9-FDFF-47BE-A6E2-477A3BB25197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3031A9-FDFF-47BE-A6E2-477A3BB25197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3031A9-FDFF-47BE-A6E2-477A3BB25197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3031A9-FDFF-47BE-A6E2-477A3BB25197}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
