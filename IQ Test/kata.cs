@@ -4,6 +4,8 @@
 
 using System;
 using NUnit.Framework;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace IQ_Test
 {
@@ -12,7 +14,12 @@ namespace IQ_Test
         public static int Test(string numbers)
         {
             //Your code is here...
-            throw new NotImplementedException();
+            var list = numbers.Split(' ').Select(o => int.Parse(o)).ToList() ;
+
+            var odd = list.Where(o => o % 2 == 0).Select(o => o);
+            var even = list.Where(o => o % 2 == 1).Select(o => o);
+
+            return odd.Count() == 1 ? list.IndexOf(odd.First()) + 1 : list.IndexOf(even.First()) + 1;
         }
     }
 
