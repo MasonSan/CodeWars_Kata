@@ -16,8 +16,8 @@ namespace IQ_Test
             //Your code is here...
             var list = numbers.Split(' ').Select(o => int.Parse(o)).ToList() ;
 
-            var odd = list.Where(o => o % 2 == 0).Select(o => o);
-            var even = list.Where(o => o % 2 == 1).Select(o => o);
+            var even = list.Where(o => o % 2 == 0).Select(o => o);
+            var odd = list.Where(o => o % 2 == 1).Select(o => o);
 
             return odd.Count() == 1 ? list.IndexOf(odd.First()) + 1 : list.IndexOf(even.First()) + 1;
         }
