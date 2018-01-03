@@ -16,6 +16,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
+using System.Text.RegularExpressions;
 
 namespace Dubstep
 {
@@ -23,7 +24,8 @@ namespace Dubstep
     {
         public static string SongDecoder(string input)
         {
-            return String.Join(" ", input.Replace("WUB", " ").Split(' ').Where(s => s != string.Empty));
+            //return String.Join(" ", input.Replace("WUB", " ").Split(' ').Where(s => s != string.Empty));
+            return Regex.Replace(input, "(WUB)+", " ").Trim();
         }
     }
 
