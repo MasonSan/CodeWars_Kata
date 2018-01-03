@@ -41,7 +41,6 @@ namespace Which_are_in
         {
             // your code
             return array1.Where(a1 => (array2.Any(a2 => a2.Contains(a1)))).OrderBy(o => o).ToArray();
-
         }
     }
 }
