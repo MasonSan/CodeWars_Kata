@@ -21,25 +21,30 @@ namespace Consecutive_strings
                 return string.Empty;
             else
             {
-                var currentIndex = 0;
-                var longestIndex = 0;
-                var maxLength = 0;
-                var tmpLength = 0;
+                return Enumerable.Range(0, strarr.Length - k + 1)
+                         .Select(x => string.Join("", strarr.Skip(x).Take(k)))
+                         .OrderByDescending(x => x.Length)
+                         .First();
 
-                while ((currentIndex + k) <= strarr.Length )
-                {
-                    tmpLength = string.Join(string.Empty, strarr.Skip(currentIndex).Take(k)).Length;
+                //var currentIndex = 0;
+                //var longestIndex = 0;
+                //var maxLength = 0;
+                //var tmpLength = 0;
 
-                    if (tmpLength > maxLength)
-                    {
-                        maxLength = tmpLength;
-                        longestIndex = currentIndex;
-                    }
+                //while ((currentIndex + k) <= strarr.Length )
+                //{
+                //    tmpLength = string.Join(string.Empty, strarr.Skip(currentIndex).Take(k)).Length;
 
-                    currentIndex++;
-                }
+                //    if (tmpLength > maxLength)
+                //    {
+                //        maxLength = tmpLength;
+                //        longestIndex = currentIndex;
+                //    }
 
-                return string.Join(string.Empty, strarr.Skip(longestIndex).Take(k));
+                //    currentIndex++;
+                //}
+
+                //return string.Join(string.Empty, strarr.Skip(longestIndex).Take(k));
             }
         }
     }
