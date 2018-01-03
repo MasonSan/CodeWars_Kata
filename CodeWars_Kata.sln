@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Supermarket Queue", "Th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directions Reduction", "Directions Reduction\Directions Reduction.csproj", "{DC3A18BB-A917-4900-8E0B-67C49BC8EE79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Pig Latin", "Simple Pig Latin\Simple Pig Latin.csproj", "{B09F2BA7-74F7-4385-8926-36B3FA602A52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{DC3A18BB-A917-4900-8E0B-67C49BC8EE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC3A18BB-A917-4900-8E0B-67C49BC8EE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC3A18BB-A917-4900-8E0B-67C49BC8EE79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09F2BA7-74F7-4385-8926-36B3FA602A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09F2BA7-74F7-4385-8926-36B3FA602A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09F2BA7-74F7-4385-8926-36B3FA602A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09F2BA7-74F7-4385-8926-36B3FA602A52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
