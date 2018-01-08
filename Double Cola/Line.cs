@@ -1,5 +1,8 @@
-﻿using System;
+﻿
+using System;
 using NUnit.Framework;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace Double_Cola
 {
@@ -29,7 +32,8 @@ namespace Double_Cola
         public static string WhoIsNext(string[] names, long n)
         {
             // Your code is here :)
-            throw new NotImplementedException();
+            var lenght = names.Length;
+            return n <= lenght ? names[n - 1] : WhoIsNext(names, (n - lenght + 1) / 2);
         }
     }
 }
