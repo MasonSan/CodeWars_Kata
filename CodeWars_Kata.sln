@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consecutive strings", "Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Double Cola", "Double Cola\Double Cola.csproj", "{C8128109-0743-4808-843E-561FEE172820}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IP Validation", "IP Validation\IP Validation.csproj", "{832969B5-04E7-45DE-8C81-E50246969329}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{C8128109-0743-4808-843E-561FEE172820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8128109-0743-4808-843E-561FEE172820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8128109-0743-4808-843E-561FEE172820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832969B5-04E7-45DE-8C81-E50246969329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832969B5-04E7-45DE-8C81-E50246969329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832969B5-04E7-45DE-8C81-E50246969329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832969B5-04E7-45DE-8C81-E50246969329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
