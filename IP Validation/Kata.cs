@@ -8,7 +8,7 @@ namespace IP_Validation
     public class SolutionTest
     {
         [Test]
-        public void TestCases()
+        public void IP_Validation_TestCases()
         {
             Assert.AreEqual(Kata.is_valid_IP("12.255.56.1"), true);
             Assert.AreEqual(Kata.is_valid_IP(""), false);

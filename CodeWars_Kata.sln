@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Double Cola", "Double Cola\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IP Validation", "IP Validation\IP Validation.csproj", "{832969B5-04E7-45DE-8C81-E50246969329}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku Solution Validator", "Sudoku Solution Validator\Sudoku Solution Validator.csproj", "{7C7E0453-BD7E-4BF8-9FE0-DD81E997DAAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{832969B5-04E7-45DE-8C81-E50246969329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{832969B5-04E7-45DE-8C81-E50246969329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{832969B5-04E7-45DE-8C81-E50246969329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7E0453-BD7E-4BF8-9FE0-DD81E997DAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7E0453-BD7E-4BF8-9FE0-DD81E997DAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7E0453-BD7E-4BF8-9FE0-DD81E997DAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7E0453-BD7E-4BF8-9FE0-DD81E997DAAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
