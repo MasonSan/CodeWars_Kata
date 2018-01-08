@@ -5,7 +5,6 @@
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Directions_Reduction
 {
@@ -32,7 +31,7 @@ namespace Directions_Reduction
         {
             var list = new List<string>(arr);
             var result = new string[] { };
-            var oppo = new Dictionary<string, string> {  };
+            var oppo = new Dictionary<string, string> { };
 
             oppo.Add("WEST", "EAST");
             oppo.Add("NORTH", "SOUTH");
