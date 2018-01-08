@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
-using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Sudoku_Solution_Validator
 {
@@ -8,12 +9,63 @@ namespace Sudoku_Solution_Validator
         public static bool ValidateSolution(int[][] board)
         {
             //TODO
-            throw new NotImplementedException();
+            return CheckRow(board) && CheckColumn(board) && CheckSquard(board);
+        }
+
+        private static bool CheckSquard(int[][] board)
+        {
+            for (var index = 0; index < 3; index++)
+            {
+                var startIndex = 3 * index;
+                var squard = new List<int>();
+
+                for (var x = startIndex; x < startIndex + 3; x++)
+                {
+                    for (var y = startIndex; y < startIndex + 3; y++)
+                    {
+                        squard.Add(board[x][y]);
+                    }
+                }
+
+                if (squard.Distinct().Count() != 9)
+                    return false;
+            }
+
+            return true;
+        }
+
+        private static bool CheckColumn(int[][] board)
+        {
+            for (int index = 0; index < 9; index++)
+            {
+                var column = new List<int>();
+
+                foreach (var row in board)
+                {
+                    column.Add(row[index]);
+                }
+
+                if (column.Distinct().Count() != 9)
+                    return false;
+            }
+
+            return true;
+        }
+
+        private static bool CheckRow(int[][] board)
+        {
+            foreach (int[] row in board)
+            {
+                if (row.Distinct().Count() != 9)
+                    return false;
+            }
+
+            return true;
         }
     }
 
     [TestFixture]
-    public class Sample_Tests
+    public class ValidateSolution_Sample_Tests
     {
         private static object[] testCases = new object[]
         {
@@ -52,6 +104,6 @@ namespace Sudoku_Solution_Validator
         };
 
         [Test, TestCaseSource("testCases")]
-        public void Test(bool expected, int[][] board) => Assert.AreEqual(expected, Sudoku.ValidateSolution(board));
+        public void ValidateSolution_Test(bool expected, int[][] board) => Assert.AreEqual(expected, Sudoku.ValidateSolution(board));
     }
 }
