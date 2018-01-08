@@ -1,6 +1,6 @@
-﻿using System;
-using System.Text;
-using NUnit.Framework;
+﻿using NUnit.Framework;
+using System;
+using System.Text.RegularExpressions;
 
 namespace IP_Validation
 {
@@ -21,11 +21,13 @@ namespace IP_Validation
         }
     }
 
-    class Kata
+    internal class Kata
     {
         public static bool is_valid_IP(string IpAddres)
         {
             //Code here
+            string expression = @"^(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$";
+            return Regex.Match(IpAddres, expression).Success;
 
         }
     }
